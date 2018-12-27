@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chess Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="timer-section">
+        <div class="timer-section-1">
+            <div class="player-name">Player 1</div>
+            <div>
+                <button id="player-1-start-btn" onclick="player1BtnPress();">
+                    <img src="./img/clock-icon.png" alt="Start Timer">
+                </button>
+            </div>
+            <div id="timer-1-label" class="timer-1"></div>
+        </div>
+
+        <div class="timer-section-2">
+            <div class="player-name">Player 2</div>
+            <div>
+                <button id="player-2-start-btn" onclick="player2BtnPress();">
+                    <img src="./img/clock-icon.png" alt="Start Timer">
+                </button>
+            </div>
+            <div id="timer-2-label" class="timer-2"></div>
+        </div>
+    </div>
+
+    <div class="reset-button-section">
+        <button id="reset" onclick="resetGame();">Reset</button>
+    </div>
+</body>
+
+</html>

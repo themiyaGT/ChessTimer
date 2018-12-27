@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.timer-section {
+    display: flex;
+}
+
+.timer-section-1, .timer-section-2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.player-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.timer-section-1 button, .timer-section-2 button {
+    margin: 20px;
+    color: black;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+
+.timer-section-1 button:hover, .timer-section-2 button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.timer-section-1 button:disabled, .timer-section-2 button:disabled {
+    cursor: auto;
+}
+
+.timer-section-1 button:disabled:hover, .timer-section-2 button:disabled:hover {
+    cursor: auto;
+    background-color: #e3e3e3;
+}
+
+.timer-section-1 button img, .timer-section-2 button img {
+    margin: 10px;
+}
+
+.timer-1, .timer-2 {
+    font-size: 26px;
+}
+
+.reset-button-section {
+    margin: 20px;
+    text-align: center;
+}
+
+.reset-button-section button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    outline: none;
+    margin: 0 auto;
+}
+
+.reset-button-section button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #F8F8F8;
+}
